@@ -35,5 +35,6 @@ module.exports = {
       }]
   } : undefined,
   httpAdminRoot: process.env.NODE_RED_UI_ROOT === 'true' ? '/admin' : '/',
-  ui: process.env.NODE_RED_UI_ROOT === 'true' ? { path : '/' } : { path : 'ui' }
+  ui: process.env.NODE_RED_UI_ROOT === 'true' ? { path : '/' } : { path : 'ui' },
+  credentialSecret: process.env.NODE_RED_CREDENTIAL_SECRET || undefined
 }
