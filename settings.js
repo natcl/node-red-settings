@@ -19,7 +19,8 @@ module.exports = {
     },
     header: {
       title: process.env.NODE_RED_TITLE || 'Node-RED'
-    }
+    },
+    tours: false
   },
   logging: {
     console: {
